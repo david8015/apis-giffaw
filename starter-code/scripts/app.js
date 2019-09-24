@@ -64,3 +64,43 @@ window.addEventListener('DOMContentLoaded', (event) => {
     }
   });
 });
+
+// function fetchData(url){
+// fetch(url)
+//   .then((response) => {
+//     return response.json();
+//   })
+//   .then((response) => {
+//     console.log(response);
+//   })
+//   .catch((err) => {
+//   	console.log(err);
+//   })
+//   .finally(() => {
+//   	console.log('done');
+//   })
+// }
+
+// function getData(url){
+
+//   fetch(url, {
+//   })
+
+//   .then(function(response) {
+// 	return response.json()
+//   })
+
+//   .then(onSuccess)
+//   .catch(onError);
+
+//   function onSuccess(response) {
+//     console.log(response)
+//   	// $("div").append("<h1>" + json.title + "</h1>");
+//    }
+
+//   function onError(error) {
+//   alert("Sorry, there was a problem!");
+//   console.dir(error);
+//    }
+// 
+// }
