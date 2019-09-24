@@ -1,0 +1,14 @@
+ html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+.form-inline{
+    margin-bottom: 20px;
+}
+
+img{
+    margin: 20px;
+    display: inline-block;
+} 
